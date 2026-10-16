@@ -35,6 +35,6 @@ Unthrottled HTTP fetches from the test computer took 0.37–0.76 seconds for rep
 - Mobile performance measurement under recorded network/device conditions.
 - Staff-approved production forms, mail, analytics, social integrations, redirects and any authenticated provider setup.
 - Individual staff accounts, production second-factor/account recovery decisions, and encrypted off-host backups. Local backups alone do not protect against losing the host.
-- The two proposed training sessions, design revision rounds, client signoff and production launch have not happened. The proposal has not been sent as part of this work.
+- The two proposed training sessions, design revision rounds, client signoff and production launch have not happened. Proposal submission status is tracked separately in the private opportunity records.
 
 Detailed runtime receipts, screenshots and restricted deployment materials remain in the local opportunity folder and are not published in this source repository. Administrator credentials remain in the protected server secret store.
