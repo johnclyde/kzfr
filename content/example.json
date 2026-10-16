@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "fetched_at": "2026-10-16",
+  "station": {
+    "name": "KZFR Community Radio",
+    "tagline": "People Powered Radio",
+    "frequency": "90.1 FM",
+    "stream_url": "https://listen.kzfr.org/stream",
+    "archive_url": "https://kzfr.studio.creek.org/archives/",
+    "donate_url": "https://kzfr-donate.creek.org/",
+    "playlist_url": "",
+    "website_url": "https://kzfr.org/",
+    "contact_url": "https://kzfr.org/pages/contact",
+    "volunteer_url": "https://kzfr.org/pages/volunteer",
+    "underwrite_url": "https://kzfr.org/pages/underwrite",
+    "address": "341 Broadway Street, Suite 411, Chico, CA 95928",
+    "phone": "530-895-0706",
+    "studio_phone": "530-895-0131",
+    "email": "info@kzfr.org",
+    "facebook_url": "https://www.facebook.com/kzfr90.1fm/",
+    "instagram_url": "https://www.instagram.com/kzfr90.1fm/",
+    "timezone": "America/Los_Angeles"
+  },
+  "programs": [
+    {
+      "slug": "nativesong",
+      "title": "Native Song",
+      "summary": "Traditional and contemporary Indigenous music, with information on community gatherings.",
+      "content": "<p>Traditional and contemporary Indigenous music, with information on community gatherings.</p><p><strong>Schedule:</strong> Monday 06:00–08:00 Pacific. This is a public schedule snapshot from October 16, 2026. Check the official program page for changes.</p><p><a href=\"https://kzfr.org/shows/nativesong\">Visit this program on KZFR</a> for the station’s latest details and available recordings.</p>",
+      "source_url": "https://kzfr.org/shows/nativesong",
+      "host": "Sandra, Anna Kastner",
+      "hosts": [
+        "Sandra",
+        "Anna Kastner"
+      ],
+      "schedule": "Monday 06:00–08:00 Pacific",
+      "schedule_slots": [
+        {
+          "day": "Monday",
+          "start": "06:00",
+          "end": "08:00",
+          "program_slug": "nativesong",
+          "program_title": "Native Song",
+          "program_slugs": [
+            "nativesong"
+          ],
+          "program_titles": [
+            "Native Song"
+          ],
+          "rotation": "",
+          "note": "",
+          "source_url": "https://kzfr.org/shows/index/monday",
+          "start_day_offset": 0,
+          "end_day_offset": 0
+        }
+      ],
+      "archive_url": "https://kzfr.org/shows/nativesong",
+      "playlist_url": "",
+      "genres": [],
+      "image_url": "",
+      "source_image_url": "https://media.kzfr.org/image/medium/IMG_1193.jpg",
+      "content_status": "Public-source summary; staff review pending."
+    }
+  ],
+  "broadcasts": [
+    {
+      "slug": "broadcast-48100",
+      "title": "Native Song · October 12, 2026",
+      "content": "<p><a href=\"https://kzfr.org/broadcasts/48100\">Open the official broadcast page</a> to check current playback availability.</p>",
+      "source_url": "https://kzfr.org/broadcasts/48100",
+      "broadcast_date": "2026-10-12",
+      "broadcast_time": "6:00am",
+      "program_slug": "nativesong",
+      "genres": [],
+      "audio_url": "",
+      "availability": "Listed without a copyright-hidden flag when sampled; playback and future availability are not guaranteed.",
+      "metadata_source_url": "https://kzfr.org/shows/nativesong"
+    }
+  ],
+  "schedule": [
+    {
+      "day": "Monday",
+      "start": "06:00",
+      "end": "08:00",
+      "program_slug": "nativesong",
+      "program_title": "Native Song",
+      "program_slugs": [
+        "nativesong"
+      ],
+      "program_titles": [
+        "Native Song"
+      ],
+      "rotation": "",
+      "note": "",
+      "source_url": "https://kzfr.org/shows/index/monday",
+      "start_day_offset": 0,
+      "end_day_offset": 0
+    }
+  ],
+  "events": [],
+  "underwriters": [],
+  "pages": [],
+  "sources": [
+    {
+      "url": "https://kzfr.org/shows/nativesong",
+      "purpose": "Minimal publicly sourced schema example"
+    }
+  ],
+  "uncertainties": [
+    "This tiny fixture is for installation and schema illustration, not the complete website content."
+  ]
+}

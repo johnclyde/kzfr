@@ -1,0 +1,48 @@
+/* Open white: a restrained radio-station masthead and full-width program rows. */
+html[data-design="white"] .minimal-home{max-width:1240px;padding:0 clamp(24px,6vw,76px) 60px;margin:0 auto;background:#fff}
+html[data-design="white"] .minimal-masthead{display:flex;justify-content:space-between;align-items:center;gap:45px;padding:49px 0 43px;border-bottom:2px solid #345d59}
+html[data-design="white"] .minimal-identity{max-width:730px}
+html[data-design="white"] .minimal-station-line{font-size:12px;line-height:1.6;letter-spacing:.06em;color:#586660;margin:0 0 14px}
+html[data-design="white"] .minimal-masthead h1{font-size:clamp(31px,4vw,47px);font-weight:400;line-height:1.15;letter-spacing:-.04em;margin:0 0 17px;color:#345d59}
+html[data-design="white"] .minimal-intro{font-size:16px;line-height:1.75;margin:0;max-width:630px}
+html[data-design="white"] .minimal-listen{flex-shrink:0;min-height:45px;padding:12px 18px;font-size:12px;gap:10px}
+html[data-design="white"] .minimal-programs,html[data-design="white"] .minimal-recordings,html[data-design="white"] .minimal-events{padding-top:39px}
+html[data-design="white"] .minimal-section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:25px;margin-bottom:19px}
+html[data-design="white"] .minimal-section-heading h2{font-size:27px;line-height:1.25;letter-spacing:-.03em;font-weight:400;color:#283634}
+html[data-design="white"] .minimal-section-heading p{font-size:12px;line-height:1.7;color:#586660;margin:7px 0 0}
+html[data-design="white"] .minimal-section-heading>a{font-size:12px;flex-shrink:0;color:#345d59}
+html[data-design="white"] .minimal-schedule-list{border-top:1px solid #d9e1dc}
+html[data-design="white"] .minimal-program-row{display:grid;grid-template-columns:105px minmax(0,1fr) 125px;gap:28px;padding:23px 0;border-bottom:1px solid #d9e1dc;align-items:start}
+html[data-design="white"] .minimal-airtime{font-size:20px;line-height:1.25;font-weight:400;letter-spacing:-.02em;color:#345d59;margin:2px 0 0}
+html[data-design="white"] .minimal-airtime span{display:block;font-size:11px;line-height:1.7;letter-spacing:0;color:#586660;margin-top:5px}
+html[data-design="white"] .minimal-airtime small{display:block;font-size:10px;letter-spacing:0;margin-top:4px}
+html[data-design="white"] .minimal-program-copy h3{font-size:24px;line-height:1.3;letter-spacing:-.025em;font-weight:400;margin:0 0 8px;color:#345d59}
+html[data-design="white"] .minimal-program-copy h3 a{text-decoration:none}
+html[data-design="white"] .minimal-program-copy h3 a:hover{text-decoration:underline}
+html[data-design="white"] .minimal-program-copy>p{font-size:14px;line-height:1.7;margin:0;color:#586660;max-width:650px}
+html[data-design="white"] .minimal-program-copy .minimal-rotation{font-size:11px;margin-top:8px}
+html[data-design="white"] .minimal-program-category{font-size:11px;line-height:1.7;color:#586660;text-align:right;padding-top:6px}
+html[data-design="white"] .minimal-directory-link{display:inline-block;font-size:12px;line-height:1.7;color:#345d59;margin-top:18px}
+html[data-design="white"] .minimal-recording-list{border-top:1px solid #d9e1dc}
+html[data-design="white"] .minimal-recording-row{display:grid;grid-template-columns:105px minmax(0,1fr) auto;align-items:center;gap:28px;padding:19px 0;border-bottom:1px solid #d9e1dc}
+html[data-design="white"] .minimal-recording-date{font-size:11px;line-height:1.6;color:#586660;margin:0}
+html[data-design="white"] .minimal-recording-row h3{font-size:19px;line-height:1.4;letter-spacing:-.02em;font-weight:400;color:#345d59}
+html[data-design="white"] .minimal-recording-row h3 a{text-decoration:none}
+html[data-design="white"] .minimal-recording-row h3 a:hover{text-decoration:underline}
+html[data-design="white"] .minimal-recording-row .button{min-height:40px;padding:10px 15px;font-size:12px;gap:8px}
+html[data-design="white"] .minimal-event-list .event-row{grid-template-columns:105px minmax(0,1fr);gap:28px;padding:24px 0}
+html[data-design="white"] .minimal-event-list .event-date{background:transparent;border:0;align-items:flex-start;min-height:0}
+html[data-design="white"] .minimal-event-list .event-date span{font-size:11px;letter-spacing:.02em;font-weight:400;color:#586660}
+html[data-design="white"] .minimal-event-list .event-date strong{font-size:31px;font-weight:400;line-height:1.35;color:#345d59}
+html[data-design="white"] .minimal-event-list .event-row h3{font-size:23px;line-height:1.3;font-weight:400}
+html[data-design="white"] .minimal-event-list .event-row .eyebrow{font-size:9px;font-weight:400;letter-spacing:.06em;margin-bottom:7px}
+html[data-design="white"] .minimal-event-list .event-row .muted{font-size:12px}
+html[data-design="white"] .minimal-about{padding-top:35px;margin-top:12px;display:grid;grid-template-columns:170px minmax(0,1fr);gap:15px 35px}
+html[data-design="white"] .minimal-about h2{font-size:23px;font-weight:400;line-height:1.4;letter-spacing:-.025em}
+html[data-design="white"] .minimal-about .prose{font-size:14px;line-height:1.85;max-width:720px}
+html[data-design="white"] .minimal-about .prose p{margin-bottom:0}
+html[data-design="white"] .minimal-station-links{grid-column:2;display:flex;gap:23px;flex-wrap:wrap;font-size:12px;color:#345d59}
+html[data-design="white"] .minimal-empty{font-size:14px;line-height:1.7;padding:20px 0;margin:0;color:#586660}
+@media(max-width:900px){html[data-design="white"] .minimal-masthead{gap:28px;padding:35px 0}html[data-design="white"] .minimal-program-row{grid-template-columns:90px minmax(0,1fr);gap:12px 22px}html[data-design="white"] .minimal-program-category{grid-column:2;text-align:left;padding-top:0}html[data-design="white"] .minimal-recording-row{grid-template-columns:90px minmax(0,1fr) auto;gap:22px}html[data-design="white"] .minimal-event-list .event-row{grid-template-columns:90px minmax(0,1fr);gap:22px}html[data-design="white"] .minimal-about{grid-template-columns:135px minmax(0,1fr);gap:15px 25px}}
+@media(max-width:600px){html[data-design="white"] .minimal-home{padding:0 22px 39px}html[data-design="white"] .minimal-masthead{display:block;padding:30px 0 27px}html[data-design="white"] .minimal-station-line{font-size:11px;margin-bottom:12px}html[data-design="white"] .minimal-masthead h1{font-size:34px}html[data-design="white"] .minimal-intro{font-size:15px}html[data-design="white"] .minimal-listen{margin-top:20px}html[data-design="white"] .minimal-programs,html[data-design="white"] .minimal-recordings,html[data-design="white"] .minimal-events{padding-top:31px}html[data-design="white"] .minimal-section-heading{display:block;margin-bottom:16px}html[data-design="white"] .minimal-section-heading h2{font-size:24px}html[data-design="white"] .minimal-section-heading>a{display:inline-block;margin-top:12px}html[data-design="white"] .minimal-program-row{grid-template-columns:69px minmax(0,1fr);gap:10px 17px;padding:21px 0}html[data-design="white"] .minimal-airtime{font-size:18px}html[data-design="white"] .minimal-program-copy h3{font-size:21px;line-height:1.35}html[data-design="white"] .minimal-program-copy>p{font-size:13px}html[data-design="white"] .minimal-recording-row{grid-template-columns:minmax(0,1fr) auto;gap:6px 17px;padding:18px 0}html[data-design="white"] .minimal-recording-date{grid-column:1}html[data-design="white"] .minimal-recording-row h3{grid-column:1;font-size:18px}html[data-design="white"] .minimal-recording-row .button{grid-column:2;grid-row:1 / 3}html[data-design="white"] .minimal-event-list .event-row{grid-template-columns:69px minmax(0,1fr);gap:17px}html[data-design="white"] .minimal-event-list .event-row h3{font-size:21px}html[data-design="white"] .minimal-about{display:block;padding-top:28px}html[data-design="white"] .minimal-about h2{margin-bottom:13px}html[data-design="white"] .minimal-station-links{margin-top:17px;gap:15px 22px}}
+@media print{html[data-design="white"] .minimal-home{padding:0}html[data-design="white"] .minimal-listen,html[data-design="white"] .minimal-recording-row .button{display:none}}

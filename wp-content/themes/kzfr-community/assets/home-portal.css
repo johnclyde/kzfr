@@ -1,0 +1,55 @@
+/* Original greens: a compact community-radio portal with a recording sidebar. */
+html[data-design="original"] .portal-home{max-width:1280px;margin:0 auto;padding:30px clamp(22px,4vw,54px) 50px;background:#fff}
+html[data-design="original"] .portal-welcome{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;padding:25px 28px;background:#f2ede3;border:1px solid #d9d4c6;border-top:5px solid #00734a;border-radius:0 0 7px 7px}
+html[data-design="original"] .portal-station-line{font-size:13px;font-weight:700;color:#00734a;margin-bottom:10px;letter-spacing:.02em}
+html[data-design="original"] .portal-station-line span{margin-left:16px;font-size:12px;font-weight:400;color:#566052}
+html[data-design="original"] .portal-welcome h1{font-size:clamp(29px,3.4vw,43px);line-height:1.12;letter-spacing:-.035em;color:#00734a;margin-bottom:13px}
+html[data-design="original"] .portal-intro{max-width:720px;font-size:15px;line-height:1.7;margin:0}
+html[data-design="original"] .portal-listen{display:flex;flex-direction:column;align-items:center;gap:12px}
+html[data-design="original"] .portal-listen .button{min-width:150px}
+html[data-design="original"] .portal-listen>a{font-size:12px;color:#00734a}
+html[data-design="original"] .portal-columns{display:grid;grid-template-columns:265px minmax(0,1fr);gap:34px;margin-top:30px;align-items:start}
+html[data-design="original"] .portal-sidebar{min-width:0;background:#f7f4ed;border:1px solid #d9d4c6;border-radius:6px;overflow:hidden}
+html[data-design="original"] .portal-sidebar-section{padding:22px}
+html[data-design="original"] .portal-sidebar-section h2{font-size:22px;letter-spacing:-.025em;line-height:1.2;margin-bottom:9px;color:#00734a}
+html[data-design="original"] .portal-recording{padding:18px 0;border-bottom:1px solid #d9d4c6}
+html[data-design="original"] .portal-date{font-size:11px;line-height:1.6;color:#566052;margin:0 0 7px}
+html[data-design="original"] .portal-recording h3{font-size:18px;line-height:1.35;letter-spacing:-.02em;margin-bottom:13px;overflow-wrap:anywhere}
+html[data-design="original"] .portal-recording h3 a{color:#00734a;text-decoration:none}
+html[data-design="original"] .portal-recording h3 a:hover{text-decoration:underline}
+html[data-design="original"] .portal-recording .button{min-height:40px;padding:9px 14px;font-size:12px;gap:8px}
+html[data-design="original"] .portal-section-link{display:inline-block;font-size:13px;font-weight:700;color:#00734a;margin-top:19px}
+html[data-design="original"] .portal-support{border-top:1px solid #d9d4c6;background:#e9eddf}
+html[data-design="original"] .portal-support ul{list-style:none;padding:0;margin:13px 0 0}
+html[data-design="original"] .portal-support li+li{margin-top:5px}
+html[data-design="original"] .portal-support a{display:inline-block;padding:6px 0;font-size:13px;color:#00734a}
+html[data-design="original"] .portal-main-column{min-width:0}
+html[data-design="original"] .portal-section-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;padding-bottom:15px;border-bottom:3px solid #00734a}
+html[data-design="original"] .portal-section-heading h2{font-size:28px;line-height:1.2;color:#00734a;letter-spacing:-.035em}
+html[data-design="original"] .portal-section-heading p{font-size:11px;color:#566052;margin:0 0 5px}
+html[data-design="original"] .portal-section-heading>a{flex-shrink:0;font-size:12px;color:#00734a;padding:5px 0}
+html[data-design="original"] .portal-program{padding:19px 0 17px;border-bottom:1px solid #d9ded2}
+html[data-design="original"] .portal-program-heading{display:flex;justify-content:space-between;align-items:baseline;gap:18px}
+html[data-design="original"] .portal-program-heading h3{font-size:22px;line-height:1.28;color:#00734a;letter-spacing:-.02em}
+html[data-design="original"] .portal-program-heading h3 a{text-decoration:none}
+html[data-design="original"] .portal-program-heading h3 a:hover{text-decoration:underline}
+html[data-design="original"] .portal-program-heading>span{font-size:11px;line-height:1.5;color:#566052;text-align:right}
+html[data-design="original"] .portal-host{font-size:12px;line-height:1.5;margin:5px 0 7px;color:#566052}
+html[data-design="original"] .portal-program-description{font-size:14px;line-height:1.6;margin:7px 0}
+html[data-design="original"] .portal-program-time{font-size:12px;line-height:1.65;color:#566052;margin:9px 0 0}
+html[data-design="original"] .portal-events{margin-top:35px}
+html[data-design="original"] .portal-event-list .event-row{grid-template-columns:65px minmax(0,1fr);gap:19px;padding:20px 0}
+html[data-design="original"] .portal-event-list .event-row:first-child{border-top:0}
+html[data-design="original"] .portal-event-list .event-date{min-height:74px}
+html[data-design="original"] .portal-event-list .event-date strong{font-size:32px}
+html[data-design="original"] .portal-event-list .event-date span{font-size:10px}
+html[data-design="original"] .portal-event-list .event-row h3{font-size:22px}
+html[data-design="original"] .portal-event-list .event-row .eyebrow{font-size:9px}
+html[data-design="original"] .portal-about{margin-top:30px;padding:24px;background:#f2ede3;border:1px solid #d9d4c6;border-radius:6px}
+html[data-design="original"] .portal-about h2{font-size:24px;color:#00734a;margin-bottom:15px}
+html[data-design="original"] .portal-about .prose{font-size:14px;line-height:1.75}
+html[data-design="original"] .portal-about .prose p{margin-bottom:15px}
+html[data-design="original"] .portal-about>a{font-size:13px;font-weight:700;color:#00734a}
+@media(max-width:950px){html[data-design="original"] .portal-columns{grid-template-columns:225px minmax(0,1fr);gap:24px}html[data-design="original"] .portal-sidebar-section{padding:19px}html[data-design="original"] .portal-welcome{padding:23px;gap:20px}html[data-design="original"] .portal-program-heading{display:block}html[data-design="original"] .portal-program-heading>span{display:block;text-align:left;margin-top:5px}}
+@media(max-width:680px){html[data-design="original"] .portal-home{padding:21px 22px 35px}html[data-design="original"] .portal-welcome{grid-template-columns:1fr;gap:19px;padding:20px}html[data-design="original"] .portal-station-line span{display:block;margin:4px 0 0}html[data-design="original"] .portal-listen{flex-direction:row;justify-content:flex-start;flex-wrap:wrap;gap:16px}html[data-design="original"] .portal-columns{grid-template-columns:1fr;gap:30px;margin-top:24px}html[data-design="original"] .portal-sidebar{display:grid;grid-template-columns:1fr}html[data-design="original"] .portal-sidebar-section{padding:22px}html[data-design="original"] .portal-recording{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 14px;align-items:center;padding:15px 0}html[data-design="original"] .portal-date{grid-column:1;margin:0}html[data-design="original"] .portal-recording h3{grid-column:1;margin:0;font-size:17px}html[data-design="original"] .portal-recording .button{grid-column:2;grid-row:1 / 3}html[data-design="original"] .portal-support ul{display:flex;flex-wrap:wrap;gap:5px 18px}html[data-design="original"] .portal-support li+li{margin:0}html[data-design="original"] .portal-section-heading h2{font-size:26px}html[data-design="original"] .portal-about{padding:21px}}
+@media print{html[data-design="original"] .portal-home{padding:0}html[data-design="original"] .portal-columns{grid-template-columns:1fr}html[data-design="original"] .portal-listen,html[data-design="original"] .portal-recording .button{display:none}}
